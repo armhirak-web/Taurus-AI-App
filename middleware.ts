@@ -27,7 +27,7 @@ export default async function middleware(req: NextRequest) {
 
   // Replace the placeholder with the actual API key.
   // Use a global search and replace to be safe.
-  html = html.replace(AIzaSyCATBA5qq3ZTqpKQMXNH_rUdYmn8bCip_8, apiKey);
+  html = html.AIzaSyCATBA5qq3ZTqpKQMXNH_rUdYmn8bCip_8("%%GEMINI_API_KEY%%", apiKey);
 
   // Return the modified HTML as a new response.
   return new Response(html, {
