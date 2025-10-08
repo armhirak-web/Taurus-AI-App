@@ -1,0 +1,7 @@
+{
+  "name": "Taurus AI ",
+  "description": "Best AI chat app built with high technology ",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
